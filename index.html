@@ -4,20 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
+  <body class="page">
+    <!--Header-->
     <header>
       <nav>
-        <a href="/">Web Studio</a>
-        <ul>
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <a href="/">
+          <span class="logo-part1">Web</span>
+          <span class="logo-part2">Studio</span></a
+        >
+        <ul class="site-nav">
+          <li><a href="" class="link">Портфолио</a></li>
+          <li><a href="" class="link">Контакты</a></li>
+          <li><a href="" class="link">Студия</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="auth-nav">
         <li>
-          <a href="mailto:info@devstudio.com"
+          <a href="mailto:info@devstudio.com" class="link"
             ><img
               src="./img/envelope.svg"
               alt="envepole"
@@ -25,7 +30,7 @@
           >
         </li>
         <li>
-          <a href="tel:+380961111111"
+          <a href="tel:+380961111111" class="link"
             ><img src="./img/smartphone.svg" alt="smartphone" />+3 8096 111 11
             11</a
           >
@@ -33,19 +38,19 @@
       </ul>
     </header>
     <main>
-      <!--Banner-->
-      <section>
-        <h1>Эффективные решения для вашего бизнеса</h1>
+      <!--Hero-->
+      <section class="hero">
+        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
         <a href="">Заказать услугу</a>
       </section>
 
       <!--Features-->
-      <section>
-        <h2>Наши особенности</h2>
-        <ul>
+      <section class="section">
+        <h2 class="section-title">Наши особенности</h2>
+        <ul class="features">
           <li>
             <img src="./img/antenna.svg" alt="Антенна" />
-            <h3>Внимание к деталям</h3>
+            <h3 class="features-title">Внимание к деталям</h3>
             <p>
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
@@ -53,7 +58,7 @@
           </li>
           <li>
             <img src="./img/clock.svg" alt="Часы" />
-            <h3>Пунктуальность</h3>
+            <h3 class="features-title">Пунктуальность</h3>
             <p>
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
@@ -61,7 +66,7 @@
           </li>
           <li>
             <img src="./img/diagram.svg" alt="Диаграмма" />
-            <h3>Планирование</h3>
+            <h3 class="features-title">Планирование</h3>
             <p>
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
@@ -69,7 +74,7 @@
           </li>
           <li>
             <img src="./img/astronaut.svg" alt="Астровнавт" />
-            <h3>Современные технологии</h3>
+            <h3 class="features-title">Современные технологии</h3>
             <p>
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
@@ -78,8 +83,8 @@
         </ul>
       </section>
       <!--Чем мы занимаемся-->
-      <section>
-        <h2>Чем мы занимаемся</h2>
+      <section class="section">
+        <h2 class="section-title">Чем мы занимаемся</h2>
         <ul>
           <li>
             <a href="">
@@ -106,8 +111,8 @@
         </ul>
       </section>
       <!--наша команда-->
-      <section>
-        <h2>Наша команда</h2>
+      <section class="section">
+        <h2 class="section-title">Наша команда</h2>
 
         <ul>
           <!--John Smith-->
@@ -201,8 +206,8 @@
         </ul>
       </section>
       <!--Постоянные клиенты-->
-      <section>
-        <h2>Постоянные клиенты</h2>
+      <section class="section">
+        <h2 class="section-title">Постоянные клиенты</h2>
         <ul>
           <li>
             <a href="">

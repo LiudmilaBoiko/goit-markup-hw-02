@@ -4,20 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="page">
     <!--Header-->
     <header>
       <nav>
-        <a href="/">
-          <span class="logo-part1">Web</span>
-          <span class="logo-part2">Studio</span></a
+        <a href="/" class="logo">
+          <span class="logo-blue">Web</span>
+          <span class="logo-black">Studio</span></a
         >
         <ul class="site-nav">
-          <li><a href="" class="link">Портфолио</a></li>
+          <li><a href="./index.html" class="link current">Студия</a></li>
+          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
           <li><a href="" class="link">Контакты</a></li>
-          <li><a href="" class="link">Студия</a></li>
         </ul>
       </nav>
       <ul class="auth-nav">
@@ -41,7 +42,7 @@
       <!--Hero-->
       <section class="hero">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <a href="">Заказать услугу</a>
+        <a href="" class="button">Заказать услугу</a>
       </section>
 
       <!--Features-->
@@ -89,7 +90,7 @@
           <li>
             <a href="">
               <img src="./img/desctop-apps.png" alt="Ноутбук" width="370" />
-              <p>Десктопные приложения</p>
+              <p class="description">Десктопные приложения</p>
             </a>
           </li>
           <li>
@@ -99,13 +100,13 @@
                 alt="Мобильный телефон"
                 width="370"
               />
-              <p>Мобильные приложения</p>
+              <p class="description">Мобильные приложения</p>
             </a>
           </li>
           <li>
             <a href="">
               <img src="./img/design.png" alt="Монитор" width="370" />
-              <p>Дизайнерские решения</p>
+              <p class="description">Дизайнерские решения</p>
             </a>
           </li>
         </ul>
@@ -118,7 +119,7 @@
           <!--John Smith-->
           <li lang="en">
             <img src="./img/john-smith.png" alt="foto John Smith" width="270" />
-            <h3>John Smith</h3>
+            <h3 class="section-subtitle">John Smith</h3>
             <p>Product Designer</p>
             <ul>
               <li>
@@ -142,7 +143,7 @@
               alt="foto Marta Stewart"
               width="270"
             />
-            <h3>Marta Stewart</h3>
+            <h3 class="section-subtitle">Marta Stewart</h3>
             <p>Frontend Developer</p>
             <ul>
               <li>
@@ -166,7 +167,7 @@
               alt="foto Robert Jakis"
               width="270"
             />
-            <h3>Robert Jakis</h3>
+            <h3 class="section-subtitle">Robert Jakis</h3>
             <p>Marketing</p>
             <ul>
               <li>
@@ -186,7 +187,7 @@
           <!--Martin Doe-->
           <li lang="en">
             <img src="./img/martin-doe.png" alt="foto Martin Doe" width="270" />
-            <h3>Martin Doe</h3>
+            <h3 class="section-subtitle">Martin Doe</h3>
             <p>UI Designer</p>
             <ul>
               <li>
@@ -245,16 +246,31 @@
         </ul>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <ul>
-        <li><a href="/">Web Studio</a></li>
-        <li><address>г. Киев, пр-т Леси Украинки,26</address></li>
-        <li><a href="mailto:info@example.com">info@example.com</a></li>
-        <li><a href="tel:+380961111111">+3 8096 111 11 11</a></li>
+        <li>
+          <a href="/">
+            <span class="logo-blue">Web</span>
+            <span class="logo-black">Studio</span></a
+          >
+        </li>
+        <li>
+          <address class="address">г. Киев, пр-т Леси Украинки,26</address>
+        </li>
+        <li>
+          <a href="mailto:info@example.com" class="link-in-footer"
+            >info@example.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+380961111111" class="link-in-footer"
+            >+3 8096 111 11 11</a
+          >
+        </li>
       </ul>
 
       <ul>
-        <li><b>Присоединяйтесь</b></li>
+        <li><b class="footer-list-title">Присоединяйтесь</b></li>
         <li>
           <ul>
             <li><a href="" aria-label="Instagramm link"></a></li>
@@ -264,8 +280,10 @@
           </ul>
         </li>
       </ul>
-      <b>Подпишитесь на рассылку</b>
-      <p>2020 &verbar; Developed by GoIT Students</p>
+      <b class="footer-list-title">Подпишитесь на рассылку</b>
+
+      <a href="" class="button">Подписаться</a>
+      <p class="footer-footer">2020 &verbar; Developed by GoIT Students</p>
     </footer>
   </body>
 </html>

@@ -1,49 +1,3 @@
-.page {
-  background-color: #fff;
-  color: #757575;
-}
-/*logo*/
-.logo-part1 {
-  color: #2196f3;
-}
-.logo-part2 {
-  color: #000000;
-}
-.logo-part2:hover,
-.logo-part2:focus {
-  color: #2196f3;
-}
-/*список без точечки*/
-ul {
-  list-style: none;
-}
-
-/*nav*/
-.site-nav .link {
-  color: #212121;
-}
-.auth-nav .link {
-  color: #757575;
-}
-.site-nav .link:hover,
-.site-nav .link:focus,
-.auth-nav .link:hover,
-.auth-nav .link:focus {
-  color: #2196f3;
-}
-/*hero*/
-.hero-title {
-  color: #fff;
-}
-
-/*section*/
-.section-title,
-.features-title {
-  color: #212121;
-}
-
-/*features*/
-
 /*заголовки цвет color: #212121;*/
 /*абзацы цвет текста color: #757575;*/
 /*основной акцент color: #2196F3;*/
@@ -51,4 +5,98 @@ ul {
 /*цвет ссылок в футере color: rgba(255, 255, 255, 0.6);*/
 /*футер футера color: rgba(255, 255, 255, 0.4);*/
 
-/*вспомогательный цвет фона*/
+:root {
+  --main-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --dark-background-main-color: rgba(255, 255, 255, 0.6);
+  --link-in-footer-color: rgba(255, 255, 255, 0.6);
+  --footer-footer-color: rgba(255, 255, 255, 0.4);
+  --white-color: #ffffff;
+}
+
+.page {
+  background-color: var(--white-color);
+  color: var(--main-text-color);
+}
+/*список без точечки*/
+/*ul {
+  list-style: none;
+}*/
+/*ссылка без подчекркивания*/
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*logo*/
+.logo-blue {
+  color: var(--accent-color);
+}
+.logo-black {
+  color: #000000;
+}
+.logo-black:hover,
+.logo-black:focus {
+  color: var(--accent-color);
+}
+
+/*nav*/
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.auth-nav .link {
+  color: var(--main-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus,
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--main-text-color);
+}
+/*hero*/
+.hero-title {
+  color: var(--white-color);
+  background-color: gray;
+}
+.button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  border-radius: 3px;
+}
+
+/*section*/
+.section-title,
+.features-title {
+  color: var(--title-text-color);
+}
+
+/*чем мы занимаемся*/
+.description {
+  color: var(--white-color);
+  background-color: grey;
+}
+
+/*наша команда*/
+.section-subtitle {
+  color: var(--title-text-color);
+}
+/*footer*/
+.footer {
+  background-color: grey;
+}
+.address {
+  color: var(--white-color);
+}
+.link-in-footer {
+  color: var(--link-in-footer-color);
+}
+.footer-list-title {
+  color: var(--white-color);
+}
+.footer-footer {
+  color: var(--footer-footer-color);
+}

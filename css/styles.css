@@ -55,35 +55,9 @@ a {
   color: var(--accent-color);
 }
 .site-nav .link.current {
-  color: var(--main-text-color);
-}
-/*hero*/
-.hero-title {
-  color: var(--white-color);
-  background-color: gray;
-}
-.button {
-  color: var(--white-color);
-  background-color: var(--accent-color);
-  border-radius: 3px;
+  color: var(--accent-color);
 }
 
-/*section*/
-.section-title,
-.features-title {
-  color: var(--title-text-color);
-}
-
-/*чем мы занимаемся*/
-.description {
-  color: var(--white-color);
-  background-color: grey;
-}
-
-/*наша команда*/
-.section-subtitle {
-  color: var(--title-text-color);
-}
 /*footer*/
 .footer {
   background-color: grey;
@@ -100,3 +74,34 @@ a {
 .footer-footer {
   color: var(--footer-footer-color);
 }
+
+/*Стили для index.html*/
+
+/*hero*/
+.hero-title {
+  color: var(--white-color);
+  background-color: gray;
+}
+/*Кнопка*/
+.button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  border-radius: 3px;
+}
+/*section*/
+.section-title,
+.features-title {
+  color: var(--title-text-color);
+}
+/*чем мы занимаемся*/
+.description {
+  color: var(--white-color);
+  background-color: grey;
+}
+
+/*наша команда*/
+.section-subtitle {
+  color: var(--title-text-color);
+}
+
+/*Стили для Портфолио*/
